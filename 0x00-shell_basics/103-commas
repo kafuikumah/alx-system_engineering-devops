@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -U --group-directories-first --ignore=*~ --color=never alx | awk '{if (NF) printf("%s%s", $0, (NR==1?"":", "));} END {printf("\n")}'
+ls -amvp
